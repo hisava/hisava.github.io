@@ -24,7 +24,7 @@ github_username:  alex1vere2
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: architect
 plugins:
   - jekyll-feed
 
