@@ -4,7 +4,11 @@ title:  "Welcome to Jekyll!"
 date:   2023-08-10 19:42:08 +0000
 categories: jekyll update
 ---
-Привет. я alex 
+Привет
+
+Этот создан по [вот этой инструкции]: https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332 ( англ. )
+
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
