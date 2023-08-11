@@ -17,7 +17,7 @@ title: alex
 email: alex1vere2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   love you
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hisava.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Veretennikov
 github_username:  alex1vere2
