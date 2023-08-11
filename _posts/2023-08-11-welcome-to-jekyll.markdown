@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2023-08-11 19:42:08 +0000
+date:   2023-08-10 19:42:08 +0000
 categories: jekyll update
 ---
 Привет
 
-Этот сайт создан по [вот этой инструкции][gist] ( англ. )
+Этот создан по [вот этой инструкции]: https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332 ( англ. )
 
 
 
@@ -29,4 +29,3 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
-[gist]:        https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332
