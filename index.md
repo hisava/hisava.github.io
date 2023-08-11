@@ -7,4 +7,5 @@ layout: home
 Этот сайт был создан [вот по этой инструкции][bill-gist] ( англ. )
 
 
+
 [bill-gist]:   https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332
