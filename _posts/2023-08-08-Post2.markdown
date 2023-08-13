@@ -11,8 +11,4 @@ categories: jekyll update
 
 @larkicheva
 
-![Текст](/Images/image00.jpeg)
-![Текст](/Images/image01.jpeg)
-
-
 [podcast]: https://music.yandex.ru/album/26762643
