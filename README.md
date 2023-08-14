@@ -1,4 +1,4 @@
-# [Этот сайт][hisava.github.io] был создан
+# [Этот сайт][hisava.github.io] ( т.е. hisava.github.io ) был создан
 
 [вот по этой инструкции][bill-gist] ( англ. )
 
