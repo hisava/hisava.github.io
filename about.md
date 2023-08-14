@@ -40,3 +40,7 @@ You can find the source code for Jekyll at GitHub:
 
 Книжное братство [flibusta.is](https://flibusta.is)
 
+Какие версии поддерживает gp ? [gp.com/versions](https://pages.github.com/versions)
+
+( gp = github pages )
+
