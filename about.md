@@ -44,3 +44,5 @@ You can find the source code for Jekyll at GitHub:
 
 ( gp = github pages )
 
+hugo [hugo](https://hisava.github.io/hugo)
+
