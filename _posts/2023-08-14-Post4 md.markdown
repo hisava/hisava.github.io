@@ -67,6 +67,14 @@ categories: jekyll update
 
 `[ссылка]: https://ya.ru` так оформляется ссылка
 
+| Таблица | 
+| ------- |
+|  `| Таблица | `       |
+|  `| ------- | `       |
+|  `| пробелы | `       |       
+
+----------------------
+
 Статья на [вики][Markdown]
 
 [Markdown]: https://ru.wikipedia.org/wiki/Markdown 'ru.wikipedia.org/wiki/Markdown'
