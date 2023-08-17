@@ -57,4 +57,4 @@ categories: jekyll update
 
 Также создадим файл `README.md` в котором опишем, что именно хранится в нашем репозитории, а именно, это
 
-[Примеры XML-сообщений в формате EdiXML СКБ Контур, Екатеринбург kontur.ru](https://github.com/Kontur)
+[Примеры XML-сообщений в формате EdiXML СКБ Контур, Екатеринбург kontur.ru](https://github.com/hisava/Kontur)
