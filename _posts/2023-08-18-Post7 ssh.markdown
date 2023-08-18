@@ -1,0 +1,115 @@
+---
+layout: post
+title:  "ssh"
+date:   2023-08-17 12:00:00 +0300
+categories: jekyll update
+---
+
+**ssh** - это протокол или правила обмена зашифрованными сообщениями
+
+В 2023 году [гитхаб](https://github.com) уже не работает с обычными логинами/паролями в терминале
+
+Для подключения *git* требуется *ssh* подключение или авторизация при помощи *токена*
+
+Первое, что нам необходимо - это ключи
+
+*Just listen find the magic* **key**
+
+# Ключи
+
+Аутентификация - это проверка, является ли ваш папа на самом деле вашим папой или его подменили инопланетяне ( [нечто](https://en.wikipedia.org/wiki/The_Thing_(1982_film)) ) 
+
+| публичный ключ | приватный ключ |
+| -------------- | -------------- |
+| public         | private        |
+
+Весь фокус в том, что вы сами ( лично вы и никто другой ) должны создать эту пару ключей
+
+Это похоже на сундук, который можно захлопнуть, но ключ для открытия только у вас
+
+Сундук - это публичный ключ
+
+Вы отправляете сундук ( публичный ключ ) своей любимой девушке, чтобы она положила свои новые фотки внутрь и закрыла сундук
+
+После закрытия даже сама девушка не может его открыть, потому что у неё нет ключа
+
+( private key )
+
+Сундук доставляет вам почта, но почтальон не может никак его открыть
+
+Можно попытаться его взломать, поэтому ключи ( стенки сундука )
+
+должны быть длинными ( широкими )
+
+# ssh-keygen
+
+Сгенерируем сундук посмотрим на него
+
+`cat ~/.ssh/id_rsa.pub `
+
+Появляется длинный текст, шириной более 500 символов
+
+( публичный ключ не помещается в одну строку на вашем мониторе )
+
+Например, у меня - три строки на правом мониторе и 5 строк - на левом
+
+Кстати говоря, приватный ключ намного длинее самого сундука
+
+( сундучок - маааленький, а приватный ключ - длинный )
+
+Вот мой ключ
+
+     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCoB7WBDBw5X4ZO/b2esw2NflHiUsHM8+iMKSCa2tPsFcJOwVd+CANUQbDKBPYD+RGwTnlQId0BWb98PZ/Dc4nRI/Qnegkotl9p9goKh1DGitpdhltDDfeViSQR/biafLlSZBkDvzukL3tWdR623qqOhKCt85qSt1r/Ehta4bD3vdcD+QzVQvdoQNl2+7ALCSDgjcTG0r32oC2+vk8I8FU9TomMTjHqODzppCCYl39PhS/d+GppULdXx6RY9X+9cwehYqjxRk2quTWKeEkhgLodEFwNajNofQgRo0Hfq5rGZnqEgS8sq6a46IQYN808rqxpvLnhRlqUKpZWLlTqvrcqNBMALbC+GvIvEeafSzzzLpSYbIJpXpqJekwTTWaleeW+V3kKu6CSYRNCTcy74q6Mydh1rxeohSfcBUyB/kI1R8OJ/X1Q5lxNyRK385ylwgOyqVISla0OQnVCQodzaAQvoQXFx3r+QOlBDS8PDl4owQpKHGW9ugP7aauTqxlKIsE= root@ex
+
+Загадка для вас - как вы думаете, я сейчас показал вам публичный ключ или приватный ?
+
+Ответ в конце статьи
+
+Далее заходим на [гитхаб](https://github.com) открываем настройки и ищем буквы *SSH*
+
+Нажимаем на кнопку **New SSH key**, добавляем ключ и сохраняем его,
+
+т.е. нажимаем на **Add SSH key**
+
+*Just listen find the magic key* ( listen up )
+
+# SSH Code
+
+Вместо привычной HTTPS ссылки на этот раз выбираем SSH ссылку на наш репозиторий
+
+`git@github.com:hisava/ga.git`
+
+В терминале клонируем репозиторий `git clone git@github.com:hisava/ga.git`
+
+На вопрос про отпечаток пальца *fingerprint* отвечаем **yes**
+
+    root@ex:~# git clone git@github.com:hisava/ga.git    
+    Клонирование в «ga»...
+    The authenticity of host 'github.com (140.82.121.3)' can't be established.
+    ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+    This key is not known by any other names.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+    Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+    warning: Похоже, что вы клонировали пустой репозиторий.
+    
+Да, мы клонировали действительно пустой репозиторий, но как раз это нам и было нужно
+
+Теперь можно с ним работать !
+
+    cd ga
+    echo https://github.com/veretennikovalexey/bookworm > README.md
+    git add .
+    git commit -m add_README.md
+    git push -u origin main
+
+Данная статья была написана благодаря и во имя статьи с хабра
+
+Спасибо, Дарья ! Ниже ссылка на её статью
+
+[Работаем с Git: первые шаги в GitHub](https://habr.com/ru/companies/yandex_praktikum/articles/700708)
+
+------
+
+*Ответ на загадку*
+
+Конечно публичный, если кто-то узнает мой приватный ключ - то он сможет открывать мои защищённые сундуки и смотреть фотки моей любимой девушки !
