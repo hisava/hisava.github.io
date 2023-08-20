@@ -58,3 +58,17 @@ $ <span style = "color: orange">**curl**</span>  <span style = "color: green">**
       "status": "available"
     }'
 
+В результате в магазине домашних животных появляется [запись](https://petstore.swagger.io/v2/pet/9223372036854252166)
+
+```html
+<Pet>
+  <id>9223372036854252166</id>
+  <name>alex</name>
+  <photoUrls/>
+  <status>available</status>
+  <tags/>
+</Pet>
+```
+
+
+
