@@ -31,3 +31,14 @@ categories: jekyll update
 Но в системах windows этот символ используется для разделения папок
 
 Поэтому, в windows вместо *backslash* используется символ ё ` ( back quote )
+
+Вот пример POST запроса из статьи про [curl](https://hisava.github.io/jekyll/update/2023/08/20/Post8-curl.html)
+
+    curl -X 'POST' `
+    'https://petstore.swagger.io/v2/pet' `
+    -H 'accept: application/json' `
+    -H 'Content-Type: application/json' `
+    -d '{
+    "name" : "alex",
+    "status": "available"
+    }'
