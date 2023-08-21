@@ -58,7 +58,7 @@ $ <span style = "color: orange">**curl**</span>  <span style = "color: green">**
       "status": "available"
     }'
 
-В результате в магазине домашних животных появляется [запись](https://petstore.swagger.io/v2/pet/9223372036854252166)
+В результате в магазине домашних животных появляется запись
 
 ```html
 <Pet>
@@ -69,6 +69,43 @@ $ <span style = "color: orange">**curl**</span>  <span style = "color: green">**
   <tags/>
 </Pet>
 ```
+
+Впрочем, она автоматически исчезает через некоторое время
+
+Чтобы не перегружать сервер чужими домашними питомцами
+
+<br>
+# GET
+
+Этот метод работает по умолчанию, если вы ничего не указали
+
+Но мы приведём ещё один небольшой пример запроса `get`
+
+    curl --request GET \
+    --url "https://api.github.com/octocat"
+
+               MMM.           .MMM
+               MMMMMMMMMMMMMMMMMMM
+               MMMMMMMMMMMMMMMMMMM      _____________________
+              MMMMMMMMMMMMMMMMMMMMM    |                     |
+             MMMMMMMMMMMMMMMMMMMMMMM   | Design for failure. |
+            MMMMMMMMMMMMMMMMMMMMMMMM   |_   _________________|
+            MMMM::- -:::::::- -::MMMM    |/
+             MM~:~ 00~:::::~ 00~:~MM
+        .. MMMMM::.00:::+:::.00::MMMMM ..
+              .MM::::: ._. :::::MM.
+                 MMMM;:::::;MMMM
+          -MM        MMMMMMM
+          ^  M+     MMMMMMMMM
+              MMMMMMM MM MM MM
+                   MM MM MM MM
+                   MM MM MM MM
+                .~~MM~MM~MM~MM~~.
+             ~~~~MM:~MM~~~MM~:MM~~~~
+            ~~~~~~==~==~~~==~==~~~~~~
+             ~~~~~~==~==~==~==~~~~~~
+                 :~==~==~==~==~~
+
 
 
 
