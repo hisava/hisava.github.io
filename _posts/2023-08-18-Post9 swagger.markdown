@@ -45,7 +45,7 @@ categories: jekyll update
 
 Я его назвал **gg** от слова swa**gg**er [github.com/hisava/gg](https://github.com/hisava/gg)
 
-Скачиваем [архив](https://github.com/swagger-api/swagger-ui/releases/tag/v5.4.2) с последней версией
+Скачиваем [архив](https://github.com/swagger-api/swagger-ui/releases) с последней версией
 
 В моём случае это версия *Swagger UI* номер **5.4.2**
 
