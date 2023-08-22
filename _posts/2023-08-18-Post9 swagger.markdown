@@ -43,7 +43,7 @@ categories: jekyll update
 
 Создаём пустой репозиторий на `github.com`, клонируем его в нашу локальную папку
 
-Я его назвал **gg** от слова swa**gg**er
+Я его назвал **gg** от слова swa**gg**er [github.com/hisava/gg](https://github.com/hisava/gg)
 
 Скачиваем [архив](https://github.com/swagger-api/swagger-ui/releases/tag/v5.4.2) с последней версией
 
