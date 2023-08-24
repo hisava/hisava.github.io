@@ -14,13 +14,38 @@ permalink: /about/
 
 ### Jekyll *умеет* раскрашивать ваш код 
 
-```java
-parameters a, b // mod function
-if empty( b )
-  result := 0
-  return
-endif
-result := a - int( a / b ) * b  
+```python
+import telebot
+import openai
+
+TOKEN = ''  
+openai.api_key = ''
+
+#
+
+bot = telebot.TeleBot( TOKEN )
+
+@bot.message_handler( func = lambda message: True )
+def echo( message ):
+  #    bot.send_message( message.chat.id, message.text )
+  message_text = message.text
+
+  if message_text != '/start' :
+    response = openai.ChatCompletion.create(
+      model = "gpt-3.5-turbo",
+      messages = [
+        { "role": "system", "content": "You are a helpful assistant" },
+        { "role": "user", "content": message_text }
+      ]
+    )
+
+    response = response['choices'][0]['message']['content'].strip()
+       
+    bot.send_message( message.chat.id, response )
+
+if __name__ == '__main__':
+  bot.polling( none_stop = True )
+
 ```
 ~
 
