@@ -54,7 +54,7 @@ In this example, we calculate the factorial of 5, which is equal to 5 * 4 * 3 * 
 
 ----
 
-Дислеймер
+Дисклеймер
 
 Это выдержка из бесплатного курса
 
