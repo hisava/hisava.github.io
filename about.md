@@ -57,3 +57,5 @@ if __name__ == '__main__':
 
 hugo [hugo](https://hisava.github.io/hugo)
 
+# My thanks to Skill Network ( for this [page](https://veretennikovalexey.github.io/ll) )
+
