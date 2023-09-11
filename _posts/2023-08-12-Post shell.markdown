@@ -45,7 +45,7 @@ Chain filter commands together using the pipe operator:
 ls | sort -r
 ```
 
-Pipe the output of manual page for ls to head to display the first 20 lines:
+Pipe the output of manual page for `ls` to `head` to display the first 20 lines:
 
 ```bash
 man ls | head -20
@@ -65,7 +65,7 @@ List all shell variables:
 set
 ```
 
-Define a shell variable called `my_planet` and assign value Earth to it:
+Define a shell variable called `my_planet` and assign value `Earth` to it:
 
 ```bash
 my_planet=Earth
@@ -100,25 +100,25 @@ export my_galaxy='Milky Way'
 
 # Metacharacters
 
-Comments #:
+Comments `#`:
 
 ```bash
 # The shell will not respond to this message
 ```
 
-Command separator ;:
+Command separator `;`:
 
 ```bash
 echo 'here are some files and folders'; ls
 ```
 
-File name expansion wildcard *:
+File name expansion wildcard `*`:
 
 ```bash
 ls *.json
 ```
 
-Single character wildcard ?:
+Single character wildcard `?`:
 
 ```bash
 ls file_2021-06-??.json
@@ -126,19 +126,19 @@ ls file_2021-06-??.json
 
 # Quoting
 
-Single quotes '' - interpret literally:
+Single quotes `''` - interpret literally:
 
 ```bash
 echo 'My home directory can be accessed by entering: echo $HOME'
 ```
 
-Double quotes "" - interpret literally, but evaluate metacharacters:
+Double quotes `""` - interpret literally, but evaluate metacharacters:
 
 ```bash
 echo "My home directory is $HOME"
 ```
 
-Backslash \ - escape metacharacter interpretation:
+Backslash `\` - escape metacharacter interpretation:
 
 ```bash
 echo "This dollar sign should render: \$"
@@ -275,13 +275,13 @@ else
 fi
 ```
 
-`and`` operator &&:
+`and` operator `&&`:
 
 ```bash
 if [ condition1 ] && [ condition2 ]
 ```
 
-`or`` operator ||:
+`or` operator `||`:
 
 ```bash
 if [ condition1 ] || [ condition2 ]
@@ -350,7 +350,7 @@ my_array=($(echo $(cat column.txt)))
 
 # `for` loops
 
-Use a for loop to iterate over values from 1 to 5:
+Use a `for` loop to iterate over values from 1 to 5:
 
 ```bash
 for i in {0..5}; do
@@ -358,7 +358,7 @@ for i in {0..5}; do
 done
 ```
 
-Use a for loop to print all items in an array:
+Use a `for` loop to print all items in an array:
 
 ```bash
 for item in ${my_array[@]}; do
@@ -366,7 +366,7 @@ for item in ${my_array[@]}; do
 done
 ```
 
-Use array indexing within a for loop, assuming the array has seven elements:
+Use array indexing within a `for` loop, assuming the array has seven elements:
 
 ```bash
 for i in {0..6}; do
