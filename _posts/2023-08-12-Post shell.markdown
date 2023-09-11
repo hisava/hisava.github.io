@@ -254,7 +254,7 @@ Back up your home directory every Monday at 3:00 am
 
 Deploy your cron job
 
-`Close the crontab editor and save the file.`
+*Close the crontab editor and save the file*
 
 List all cron jobs
 
@@ -377,8 +377,3 @@ done
 ```bash
 
 ```
-
-```bash
-
-```
-
