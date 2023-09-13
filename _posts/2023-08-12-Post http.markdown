@@ -200,7 +200,7 @@ Content-Type: text/html
 
 Заголовок Server описывает программное обеспечение веб-сервера, используемое для генерации ответа
 
-* ` Content-Length`
+* `Content-Length`
 
 Заголовок Content-Length описывает длину ответа
 
