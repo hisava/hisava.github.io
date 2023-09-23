@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "docker"
+date:   2023-09-23 12:00:00 +0300
+categories: jekyll update
+---
+
+# [docker.com](https://docker.com/)
+<br>
+
+# [visualstudio](https://code.visualstudio.com/)
+
+Управление - Параметры `CTRL + ,`
+
+<br>
+# Use Editor As Commit Input
+
+снять галочку
+
+( git.useEditorAsCommitInput )
+
+"git.useEditorAsCommitInput": false
+
+<br>
+
+# Расширения `CTRL + SHIFT + X`
+
+`dev containers` - установить
+
+`docker` - установить
+
+<br>
+
+## Создаём папку my-ai-docker-image
+
+Добавляем файл с именем `Dockerfile`
+
+и пишем
+
+```Dockerfile
+FROM ubuntu:latest
+```
+
+сохраняемся
+
+нажимаем **F1** и пишем
+
+`dev containers: rebuild and reopen in container`
+
+выбираем 
+
+`Dockerfile`
+
+здесь ничего не выбираем, а просто нажимаем **ОК**
+
+<br>
+# [Билл выпустил интересное видео про ai и ml](https://gist.github.com/veretennikovalexey/d895bad5ed33706082fb8c9878e01d84)
