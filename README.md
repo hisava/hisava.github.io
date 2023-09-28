@@ -9,3 +9,7 @@
 [Моя первая лаборатория][try]
 
 [try]: https://github.com/hisava/hisava.github.io/blob/main/try.ipynb
+
+# Объекты и классы в питоне [Азбука][[objects-and-classes]] 
+
+[objects-and-classes]: https://github.com/hisava/hisava.github.io/blob/main/objects-and-classes.ipynb
