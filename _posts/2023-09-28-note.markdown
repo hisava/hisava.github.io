@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "notebook"
+date:   2023-09-28 12:00:00 +0300
+categories: jekyll update
+---
+
+# jupyter notebook
+
+Для установки книги пишем команду
+
+```
+pip install notebook
+```
+
+Выбираем папку, в которой мы будем работать с книгой и запускаем юпитер
+
+```
+jupyter notebook
+```
+
+Юпитер работает в режиме книги `notebook` и в режиме лаборатории `lab`
+
+Для запуска юпитера в режиме лаборатории используется команда
+
+```
+jupyter lab ipynb.ipynb 
+```
+
+Ваша книга состоит из ячеек
+
+Каждая ячейка представляет из себя текст в формате Markdown или программный код
+
+При нажатии на `CTRL+ENTER` код выполняется
+
+При нажатии на `SHIFT+ENTER` код выполняется и добавляется ещё одна ячейка ниже
+
+--
+
+## pip
+
+Если требуется обновить пакетный менеджер **pip**, используем другую команду
+
+```
+python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
+```
+
+В настоящий момент версия **pip** равна `23.2.1`
+
+--
+
+## git commit
+
+vscode будет хорошо работать с github только если создать токен
+
+[Необходимо создать классический токен для доступа к репозиторию](https://github.com/settings/tokens)
+
+Затем в папке проекта выдать команду
+
+```
+git remote set-url origin https://hisava:<pat>@github.com/hisava/hisava.github.io.git
+```
+
+<**pat**> - это *personal access token*
