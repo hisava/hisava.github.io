@@ -6,4 +6,4 @@
 
 [bill-gist]:   https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332
 
-[Моя первая лаборатория](https://github.com/hisava/hisava.github.io/blob/main/try.ipynb)
+(https://github.com/hisava/hisava.github.io/blob/main/try.ipynb)[Моя первая лаборатория]
