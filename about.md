@@ -79,6 +79,9 @@ hugo [hugo](https://hisava.github.io/hugo)
 
 [objects-and-classes]: https://github.com/hisava/hisava.github.io/blob/main/objects-and-classes.ipynb
 
+## Запись в файл на языке питон
 
+[Простой пример][writefile]
 
+[writefile]: https://github.com/hisava/hisava.github.io/blob/main/writefile.ipynb
 
