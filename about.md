@@ -59,7 +59,7 @@ hugo [hugo](https://hisava.github.io/hugo)
 
 # My thanks to Skill Network ( for this [page](https://veretennikovalexey.github.io/ll) )
 
-----------------
+---------------
 
 # [Этот сайт][hisava.github.io] ( т.е. hisava.github.io ) был создан
 
