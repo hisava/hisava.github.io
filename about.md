@@ -73,6 +73,12 @@ hugo [hugo](https://hisava.github.io/hugo)
 
 [try]: https://github.com/hisava/hisava.github.io/blob/main/try.ipynb
 
+# numpy
+
+[numpy.ipynb][numpy.ipynb]
+
+[numpy.ipynb]: https://github.com/hisava/hisava.github.io/blob/main/numpy.ipynb
+
 # Объекты и классы в питоне
 
 [Азбука][objects-and-classes] 
