@@ -73,6 +73,10 @@ hugo [hugo](https://hisava.github.io/hugo)
 
 [try]: https://github.com/hisava/hisava.github.io/blob/main/try.ipynb
 
+[PY0101EN-5.3_Requests_HTTP.ipynb][HTTP]
+
+[HTTP]: https://github.com/hisava/hisava.github.io/blob/main/PY0101EN-5.3_Requests_HTTP.ipynb
+
 [PY0101EN-5.1_Intro_API.ipynb][api]
 
 [api]: https://github.com/hisava/hisava.github.io/blob/main/PY0101EN-5.1_Intro_API.ipynb
