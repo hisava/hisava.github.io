@@ -85,6 +85,10 @@ hugo [hugo](https://hisava.github.io/hugo)
 
 [api]: https://github.com/hisava/hisava.github.io/blob/main/PY0101EN-5.1_Intro_API.ipynb
 
+[labs_module-1_Web-Scraping_Web-Scraping-Review-Lab.ipynb][Web-Scraping]
+
+[Web-Scraping]: https://github.com/hisava/hisava.github.io/blob/main/labs_module-1_Web-Scraping_Web-Scraping-Review-Lab.ipynb
+
 # numpy
 
 [numpy.ipynb][numpy.ipynb]
