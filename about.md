@@ -61,6 +61,14 @@ hugo [hugo](https://hisava.github.io/hugo)
 
 ---------------
 
+## Милая собачка ( фото )
+
+
+[PY0101EN-5.4_WorkingWithDifferentFileTypes.ipynb][FileTypes]
+
+[FileTypes]: https://github.com/hisava/hisava.github.io/blob/main/PY0101EN-5.4_WorkingWithDifferentFileTypes.ipynb
+
+
 # [Этот сайт][hisava.github.io] ( т.е. hisava.github.io ) был создан
 
 [вот по этой инструкции][bill-gist] ( англ. )
