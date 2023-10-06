@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "jira"
+date:   2023-10-06 12:00:00 +0300
+categories: jekyll update
+---
+
+# jira - это программа, разработанная компанией Atlassian
+
+Программа `Jira` написана на *Java*
+
+Gojira в переводе означает годзилла
+
+`https://www.atlassian.com/software/jira`
+
+
+
+**Atlassian** - австралийская компания по разработке ПО
+
+Основана в 2002 году в Сиднее
+
+
+
+`https://ru.wikipedia.org/wiki/Jira`
