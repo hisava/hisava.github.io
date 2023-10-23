@@ -39,7 +39,7 @@ categories: jekyll update
 
 И последняя команда
 
-`git push -u origin main`` где слово *origin* обозначает источник
+`git push -u origin main` где слово *origin* обозначает источник
 
 ( положи меня туда, откуда взял )
 
