@@ -5,6 +5,8 @@ date:   2023-08-17 12:00:00 +0300
 categories: jekyll update
 ---
 
+# [skbkontur](https://disk.skbkontur.ru/index.php/s/TimQx7na9b6Wawp)
+
 [github.com](https://github.com) - это такое место в сети, где вы можете бесплатно размещать свой код
 
 Для примера давайте зайдём ко мне [github.com/hisava](https://github.com/hisava) и создадим новый репозиторий
