@@ -1,0 +1,108 @@
+---
+layout: post
+title:  "far"
+date:   2023-10-24 12:00:00 +0300
+categories: jekyll update
+---
+
+`На хабре 18 октября 2023 года появилась статья`
+
+# [far2l в Ubuntu 23.10](https://habr.com/ru/articles/768328)
+
+Поэтому, не откладывая, давайте установим систему **ubuntu**
+
+Для этого 
+
++ скачаем `virtualbox`
++ установим `плагин`
++ найдём образ `ubuntu-23.10.1-desktop-amd64.iso`
+
+<br>
+# У С Т А Н О В К А
+<br>
+
+| Welcome to Ubuntu | Next |
+|-------------------|------|
+| Install Ubuntu    | Next |
+|-------------------|------|
+| Keyboard layout   | Next |
+|-------------------|------|
+| Use wired connection | Next |
+|-------------------|------|
+| Update available  | Skip |
+|-------------------|------|
+| Default installation | Next |
+|-------------------|------|
+| Erase disk and install Ubuntu | Next |
+|-------------------|------|
+| Ready to install  | Install  |
+|-------------------|------|
+| Select your timezone | Next |
+|-------------------|------|
+| Your name                  |   `al`    |
+|-------------------|------|
+| Your computer's name                   | `ex`     |
+|-------------------|------|
+| password                  | 1     |
+|-------------------|------|
+| password                  | 1     |
+|-------------------|------|
+| Require my password to log in                  |  false ( no )    |
+|-------------------|------|
+| Choose your theme                   | Next     |
+|-------------------|------|
+
+Installation complite 
+
+**Restarn now**
+
+<br>
+# З А П У С К
+<br>
+# Please remove - press ENTER
+
+| Online Accounts | Skip |
+|-------------------|------|
+| Help improve Ubuntu | No - Next |
+|-------------------|------|
+| Location Services | Yes - Next |
+|-------------------|------|
+| Software Updater  | Install Now  |
+|-------------------|------|
+
+**Done**
+
+
+
+## Открываем терминал
+
+`sudo apt install build-essential dkms linux-headers-$(uname -r)`
+
+`cd /tmp`
+
+`wget http://download.virtualbox.org/virtualbox/7.0.12/VBoxGuestAdditions_7.0.12.iso`
+
+`sudo mount -o loop,ro VBoxGuestAdditions_7.0.12.iso /mnt`
+
+`sudo sh /mnt/VBoxLinuxAdditions.run --nox11`
+
+`sudo umount /mnt`
+
+`sudo rm VBoxGuestAdditions_7.0.12.iso`
+
+**Restart now**
+
+<br>
+# П Е Р Е З А Г Р У З К А
+<br>
+
+<br>
+## Дополнительные ссылки
+
+# virtualbox 7.0.12
+
+[download.virtualbox.org/virtualbox/7.0.12](https://download.virtualbox.org/virtualbox/7.0.12)
+
+# Установка гостевых дополнений
+
+[github.com/veretennikovalexey/bookworm](https://github.com/veretennikovalexey/bookworm)
