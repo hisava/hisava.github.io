@@ -1,4 +1,8 @@
-$$\gamma = \frac{C_P}{C_V}$$
+Показатель адиабаты $$\gamma = \frac{C_P}{C_V}$$
+
+<br>
+<br>
+<br>
 
 
 # [Этот сайт][hisava.github.io] ( т.е. hisava.github.io ) был создан
