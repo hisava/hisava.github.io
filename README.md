@@ -1,4 +1,4 @@
-$$\gamma = \frac{C_p}{C_v}$$
+$$\gamma = \frac{C_P}{C_V}$$
 
 
 # [Этот сайт][hisava.github.io] ( т.е. hisava.github.io ) был создан
