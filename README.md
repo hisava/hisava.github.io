@@ -1,4 +1,4 @@
-$$\gamma = \frac{R}{2(m_1 + m_2)}(\frac{i_1 m_1}{M_1} + \frac{i_2 m_2}{M_2})$$
+$$\gamma = \frac{C_p}{C_v}$$
 
 
 # [Этот сайт][hisava.github.io] ( т.е. hisava.github.io ) был создан
